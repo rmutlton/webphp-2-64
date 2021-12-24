@@ -24,11 +24,18 @@
         body {
             font-family: 'Noto Sans Thai', sans-serif;
         }
+
+        footer {
+            position: fixed;
+            height: 50px;
+            bottom: 0;
+            width: 100%;
+        }
     </style>
 
     <?php if($filename === 'index.php') { ?>
 
         <link rel="stylesheet" href="./css/carousel.css">
-        
+
     <?php } ?>
 </head>

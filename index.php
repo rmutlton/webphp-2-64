@@ -7,7 +7,7 @@
 
     <?php include("./component/menu.php"); ?>
 
-    <div>
+    <main>
         <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class=""
@@ -70,8 +70,9 @@
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
-    </div>
+    </main>
 
+    <?php include("./component/footer.php"); ?>
     <?php include("./component/script.php"); ?>
 
 </body>

@@ -39,6 +39,7 @@
         </div>
     </div>
 
+    <?php include("../component/footer.php"); ?>
     <?php include("../component/script.php"); ?>
 
 </body>
