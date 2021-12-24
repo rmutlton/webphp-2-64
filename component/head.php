@@ -26,4 +26,9 @@
         }
     </style>
 
+    <?php if($filename === 'index.php') { ?>
+
+        <link rel="stylesheet" href="./css/carousel.css">
+        
+    <?php } ?>
 </head>
